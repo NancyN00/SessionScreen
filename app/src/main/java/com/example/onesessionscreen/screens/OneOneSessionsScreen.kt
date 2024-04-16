@@ -11,8 +11,10 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -31,6 +33,7 @@ import com.example.onesessionscreen.components.TopicText
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun OneOneSessionsScreen() {
+
     Scaffold(
         topBar = {
             TopAppBar(title = {
@@ -70,6 +73,8 @@ fun OneOneSessionsScreen() {
                 title1 = stringResource(R.string.cecilia_ouko),
                 title2 = stringResource(R.string.lead_ux_designer_google)
             )
+
+            Divider(color = MaterialTheme.colorScheme.outlineVariant, thickness = 1.dp)
 
             Spacer(modifier = Modifier.height(15.dp))
 
