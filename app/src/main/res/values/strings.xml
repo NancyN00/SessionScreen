@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OneSessionScreen</string>
+    <string name="group">Group</string>
+    <string name="home">Home</string>
+    <string name="one_one_session_screen">One One Session Screen</string>
+    <string name="search">Search</string>
+    <string name="my_pic">My Pic</string>
+    <string name="pending">Pending</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="being_the_only_designer">Being the only designer</string>
+    <string name="sat_mar_10">Sat, Mar 10</string>
+    <string name="_6_00pm_6_30pm">6:00PM - 6:30PM</string>
+    <string name="cecilia_ouko">CECILIA OUKO</string>
+    <string name="lead_ux_designer_google">Lead UX Designer, Google</string>
+    <string name="session_type">Session Type</string>
+    <string name="one_on_one">One-On-One</string>
+    <string name="topic">Topic</string>
+    <string name="notes">Notes</string>
+    <string name="please_review_my_prototype">Please review my prototype</string>
+    <string name="meeting_link">Meeting Link</string>
+    <string name="https_meet_google_com_bam_ife_mic">https://meet.google.com/bam-ife-mic</string>
+    <string name="reschedule">RESCHEDULE</string>
+</resources>
