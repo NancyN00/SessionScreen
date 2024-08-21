@@ -3,7 +3,6 @@ package com.example.onesessionscreen.components
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccessTime
@@ -19,7 +18,6 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun TopicText(
-    modifier: Modifier = Modifier,
     text1: String,
     text2: String,
     text3: String,
